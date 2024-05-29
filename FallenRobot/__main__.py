@@ -210,10 +210,6 @@ def start(update: Update, context: CallbackContext):
             update.effective_message.reply_sticker(
                 "CAACAgUAAxkBAAJaTmZUT-Agrn4__yyMGv5PvpJ8QSOfAAJHDAACuNjIV05W_ZJ-gKbcNQQ"
             )
-            first_name = update.effective_user.first_name
-            update.effective_message.reply_photo(
-                "https://graph.org/file/9c735cbca3cca397ae4e6.jpg"
-            )
              update.effective_message.reply_text(
                 PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME),
                 reply_markup=InlineKeyboardMarkup(buttons),
