@@ -98,7 +98,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="☁️ sᴏᴜʀᴄᴇ ☁️", url=f"https://t.me/hackling_zone"),
+        InlineKeyboardButton(text="☁️ sᴏᴜʀᴄᴇ ☁️", url=f"https://t.me/hacklng_zone"),
     ],
 ]
 
